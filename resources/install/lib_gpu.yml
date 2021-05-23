@@ -1,0 +1,26 @@
+name: cvpr
+ 
+dependencies:
+    - python=3.8
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - numpy
+    - pip:
+        - tensorflow==2.4
+        - bayesian-optimization
+        - gym
+        - kaggle
+        - opencv-python
+        - jupyter_contrib_nbextensions
